@@ -1,0 +1,16 @@
+https://pixelfrog-assets.itch.io/tiny-swords
+
+---- Tiny Swords ----
+Have fun building your own little kingdom. This asset pack contains a collection of assets where little characters can build structures, collect resources, and fight enemies.
+
+Formats: All game sprites are PNG images. Aseprite files included for all animations.
+
+Tilemap grid: 64x64 pixels.
+
+Animations speed: 10fps or 100ms.
+
+License: CC0
+
+These assets are released under a Creative Commons Zero (CC0) license. You can distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+
+Attribution is not required.

@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=3 uid="uid://bnakj2wmlnhny"]
+
+[ext_resource type="Texture2D" uid="uid://pbg2bv0vg2r1" path="res://scenes/button/Button_Blue_9Slides.png" id="1_lrmay"]
+[ext_resource type="Texture2D" uid="uid://c2cptc8al7uk8" path="res://scenes/button/Button_Blue_9Slides_Pressed.png" id="1_s3p44"]
+[ext_resource type="FontFile" uid="uid://0jvr0b1qc6ta" path="res://fonts/Kenney Future Narrow.ttf" id="1_u7yrx"]
+[ext_resource type="Script" uid="uid://54ixxig8qsaa" path="res://scenes/button/button.gd" id="4_q2jlx"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_s3p44"]
+texture = ExtResource("1_lrmay")
+texture_margin_left = 64.0
+texture_margin_top = 64.0
+texture_margin_right = 64.0
+texture_margin_bottom = 64.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u7yrx"]
+texture = ExtResource("1_s3p44")
+texture_margin_left = 64.0
+texture_margin_top = 64.0
+texture_margin_right = 64.0
+texture_margin_bottom = 64.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lrmay"]
+texture = ExtResource("1_lrmay")
+texture_margin_left = 64.0
+texture_margin_top = 64.0
+texture_margin_right = 64.0
+texture_margin_bottom = 64.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="Button" type="Button"]
+offset_right = 128.0
+offset_bottom = 128.0
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_u7yrx")
+theme_override_font_sizes/font_size = 100
+theme_override_styles/hover = SubResource("StyleBoxTexture_s3p44")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_u7yrx")
+theme_override_styles/normal = SubResource("StyleBoxTexture_lrmay")
+script = ExtResource("4_q2jlx")

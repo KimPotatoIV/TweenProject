@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://6dsmbyl4x4i1"]
+
+[ext_resource type="PackedScene" uid="uid://bh4f0gl55uh44" path="res://scenes/hud/hud.tscn" id="1_hyk8p"]
+[ext_resource type="PackedScene" uid="uid://br1i1lkpirlsb" path="res://scenes/background/background.tscn" id="1_iuonh"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_iuonh")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="HUD" parent="." instance=ExtResource("1_hyk8p")]

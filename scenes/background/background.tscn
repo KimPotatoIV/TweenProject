@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://br1i1lkpirlsb"]
+
+[ext_resource type="Texture2D" uid="uid://l1d1j73cgoe8" path="res://scenes/background/Carved_9Slides.png" id="1_iheb5"]
+
+[node name="Background" type="NinePatchRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_iheb5")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 64
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
